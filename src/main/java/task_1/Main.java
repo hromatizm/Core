@@ -58,9 +58,9 @@ public class Main {
 				System.out.printf(BLUE + "%4d ", item); // Color for less than avg
 			else
 				System.out.printf(RED + "%4d ", item);  // Color for more than avg
-			System.out.print(WHITE_BACK);               // Reset accent
+			System.out.print(WHITE_BACK);                   // Reset accent
 		}
-		System.out.println(BLACK);                      // Reset color
+		System.out.println(BLACK);                              // Reset color
 	}
 
 	static int min(int[][] arr) {
