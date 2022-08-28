@@ -148,7 +148,7 @@ public class Main {
 			for (int j = 0; j < testArray.length; j++) {	// 10_000 - length of each array
 				testArray[i] = myRandom(30);      	// duplicated keys from 0 to 30 (random)
 			}
-			sort(testArray); 							 	// threePartQuickSort
+			sort(testArray); 				// threePartQuickSort
 			assert checkSorted(testArray) : "Test for Random Arrays is fail. Array is not sorted.";
 		}
 		System.out.println("Test passed for Random Arrays.");
